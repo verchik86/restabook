@@ -1,6 +1,6 @@
 //timer----------
 window.addEventListener("DOMContentLoaded", () => {
-    const timeEnd = "2023-08-09";
+    const timeEnd = "2023-03-09";
     function getTimeRemaining(endtime) {
         const t = Date.parse(endtime) - Date.parse(new Date()),
             days = Math.floor(t / (1000 * 60 * 60 * 24)),
